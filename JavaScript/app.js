@@ -665,7 +665,7 @@ document.write(`<option>${phoneManf[5]}</option>`)
 document.write(`</select>`)
 
 
----------------------------------Chapter 17 - 20 -------------------------
+//---------------------------------Chapter 17 - 20 -------------------------
 
 var multiArray = []
 multiArray.push([0, 1, 2, 3])
@@ -982,31 +982,30 @@ var kgs = false
 for (var i = 48; i <= 57; i++) {
     numChar1.push(i)
 }
-var weight = prompt('Enter your weight in Kilograms')
-weight = weight.toLowerCase()
-for(var i=0; i<weight.length; i++){
-    if(weight.slice(i, i+3) === 'kgs' || weight.slice(i, i+9) === 'kilograms'){
-        kgs=true
-    }
-}
-for(var i=0; i<weight.length; i++){
-    for()
-}
-if(){
+// var weight = prompt('Enter your weight in Kilograms')
+// weight = weight.toLowerCase()
+// for(var i=0; i<weight.length; i++){
+//     if(weight.slice(i, i+3) === 'kgs' || weight.slice(i, i+9) === 'kilograms'){
+//         kgs=true
+//     }
+// }
+// for(var i=0; i<weight.length; i++){
+//     for()
+// }
+// if(){
 
-}
-else if(weight.slice(weight.length-9) === 'kilograms'){
-    document.write(`The Weight of user is ${weight.slice(0, weight.length-9)} Kilograms`) 
+// }
+// else if(weight.slice(weight.length-9) === 'kilograms'){
+//     document.write(`The Weight of user is ${weight.slice(0, weight.length-9)} Kilograms`) 
 
-}
-else if(weight.slice(weight.length-3) ==='kgs'){
-    document.write(`The Weight of user is ${weight.slice(0, weight.length-3)} Kilograms`) 
-} 
-else {
-    alert('Please input valid data')
-}
+// }
+// else if(weight.slice(weight.length-3) ==='kgs'){
+//     document.write(`The Weight of user is ${weight.slice(0, weight.length-3)} Kilograms`) 
+// } 
+// else {
+//     alert('Please input valid data')
+// }
 
-//Q9.
 
 
 // //---------------------------CHAPTER 31 - 34 ----------------------------
@@ -1060,10 +1059,10 @@ document.write(`<br>Later Date: ${laterDate}`)
 var todayStart = new Date('1-1-2020')
 document.write(`<br>${((date-todayStart)/60)} Seconds had passed since begining of 2020`)
 
-Q11. till end peding
+//Q11. till end peding
 
 
-- - --- - -  - - - Chpater 35 -38 - - - - -  - - - - - - - 
+//- - --- - -  - - - Chpater 35 -38 - - - - -  - - - - - - - 
 
 function curentDate(){
     let current_Date = new Date()
